@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "typeRoots": ["./types"],
+    "baseUrl": "./packages",
+    "paths": {
+      "orsjo-pdf-generator": [
+        "orsjo-pdf-generator"
+      ],
+      "orsjo-website": [
+        "orsjo-website"
+      ],
+      "orsjo-datocms-plugin": [
+        "orsjo-datocms-plugin"
+      ],
+    },
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "./types/**"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "references": [
+    {
+      "path": "./packages/orsjo-website"
+    },
+    {
+      "path": "./packages/orsjo-datocms-plugin"
+    },
+    {
+      "path": "./packages/orsjo-pdf-generator"
+    }
+  ]
+}
