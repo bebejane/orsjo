@@ -3521,16 +3521,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=10.0.0":
-  version: 17.0.43
-  resolution: "@types/node@npm:17.0.43"
-  checksum: 7fd84b1e37dc406c1c73a1461ccd6a1a38a5a335563788dd25e0aa75476d6948f815d0e9e4c2201f785a36a72269e6aaf0d851ca75c1e44b92e3a9d504e04a1e
+  version: 17.0.44
+  resolution: "@types/node@npm:17.0.44"
+  checksum: 8e2786472507575a9c49ec6c4b056cbe1f4fd6766fd03299f8510bbdce558d8522691b2cc24329396742002c2a8c3708cb453053ecbe0ce09c10b9d48887c9d8
   languageName: node
   linkType: hard
 
 "@types/node@npm:^16.11.25":
-  version: 16.11.40
-  resolution: "@types/node@npm:16.11.40"
-  checksum: d586c2e263d490d9a24eabadcf3f8320ab203d5586f0ce41c55f8bb950b18964b277bbb99cc7f9de28f2bb1dd5a4ea5fb56eb3d35a65065c16cd1c5285a90495
+  version: 16.11.41
+  resolution: "@types/node@npm:16.11.41"
+  checksum: 808e4d65757bb13cf25e88dfa4e65880efef06652b04baecb051eb90cf090dda9812aa3505b31e963a48041eed7dbe0fc59c44c7c5e117da952ff951bf3a584a
   languageName: node
   linkType: hard
 
@@ -5551,9 +5551,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bump-version@github:ianstormtaylor/bump":
+"bump-version@npm:^0.5.0":
   version: 0.5.0
-  resolution: "bump-version@https://github.com/ianstormtaylor/bump.git#commit=6f3385ac8931a3743097369fe5cc1f531c23e32f"
+  resolution: "bump-version@npm:0.5.0"
   dependencies:
     chalk: ^1.1.0
     commander: ^2.8.1
@@ -5561,7 +5561,7 @@ __metadata:
     semver: ^5.0.1
   bin:
     bump: bin/bump
-  checksum: 55b531f1b6fbf09a109f5cdff869ded919662db8a3c29b6edd8d879dc2279f74b8834b7c86a82638af636eb9da0894140d8021b47322286268ed56cec6d75e0e
+  checksum: 84cc48cbef5955ca6c0bda3bf8c0fefef3f102aae56a597d85d199831ef8a12c93b73dfee99f5757aa5549b3ccaa4b507c54d1ad669c92b592bfd40a271f74b4
   languageName: node
   linkType: hard
 
@@ -13596,14 +13596,14 @@ __metadata:
     "@types/react": ^17.0.39
     "@types/react-dom": ^17.0.11
     base64-ts: ^2.0.1
-    bump-version: "github:ianstormtaylor/bump"
+    bump-version: ^0.5.0
     cross-env: ^7.0.3
     date-fns: ^2.28.0
     datocms-client: ^3.5.21
     datocms-plugin-sdk: ^0.5.2
     datocms-react-ui: ^0.5.2
-    react: ^17.0.2
-    react-dom: ^17.0.2
+    react: ^18.2.0
+    react-dom: ^18.2.0
     react-icons: ^4.3.1
     react-scripts: 5.0.0
     socket.io-client: ^4.4.1
@@ -15417,20 +15417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    scheduler: ^0.20.2
-  peerDependencies:
-    react: 17.0.2
-  checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
-  languageName: node
-  linkType: hard
-
-"react-dom@npm:^18.1.0":
+"react-dom@npm:^18.1.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -15640,17 +15627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
-  languageName: node
-  linkType: hard
-
-"react@npm:^18.1.0":
+"react@npm:^18.1.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -16328,16 +16305,6 @@ __metadata:
   dependencies:
     xmlchars: ^2.2.0
   checksum: 5636b55cf15f7cf0baa73f2797bf992bdcf75d1b39d82c0aa4608555c774368f6ac321cb641fd5f3d3ceb87805122cd47540da6a7b5960fe0dbdb8f8c263f000
-  languageName: node
-  linkType: hard
-
-"scheduler@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "scheduler@npm:0.20.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
   languageName: node
   linkType: hard
 
